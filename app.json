@@ -1,0 +1,25 @@
+{
+    "expo": {
+        "name": "FastLocation",
+        "slug": "fastlocation",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "userInterfaceStyle": "light",
+        "assetBundlePatterns": [
+            "**/*"
+        ],
+        "ios": {
+            "supportsTablet": true,
+            "bundleIdentifier": "com.fastdelivery.fastlocation"
+        },
+        "android": {
+            "adaptiveIcon": {
+                "backgroundColor": "#FF6B00"
+            },
+            "package": "com.fastdelivery.fastlocation"
+        },
+        "web": {
+            "bundler": "metro"
+        }
+    }
+}
