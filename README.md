@@ -37,20 +37,20 @@ O **FastLocation** permite que entregadores consultem endereços rapidamente, se
 
 ```bash
 # Clone o repositório
-git clone <url-do-repositório>
-cd FastLocation
+git clone https://github.com/zevjr/senai-fastlocation-app
+cd senai-fastlocation-app
 
 # Instale as dependências
 npm install
 ```
 
 ### Execução
-
+Nessa maneira, é possivele escolher depois qual a forma que deseja executar.
+Aqui, é a metodo mais genérico de executar a aplicação.
 ```bash
-npx expo start
+npm run start
 ```
 
-Escaneie o QR Code com o app **Expo Go** (Android) ou com a câmera do iPhone (iOS).
 
 ### Executar no simulador
 
@@ -60,6 +60,9 @@ npm run android
 
 # iOS
 npm run ios
+
+# Web
+npm run web
 ```
 
 ### Testes
